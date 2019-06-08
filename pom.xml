@@ -119,6 +119,13 @@
             <artifactId>derby</artifactId>
         </dependency>
 
+        <!-- Add postgres driver  -->
+        <dependency>
+          <groupId>org.postgresql</groupId>
+          <artifactId>postgresql</artifactId>
+          <version>42.2.5.jre7</version>
+        </dependency>
+
         <!-- The following dependencies are only needed for automated unit tests, you do not neccesarily need them to run the example. -->
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
